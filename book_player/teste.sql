@@ -1,5 +1,4 @@
-SELECT  count(*)
-FROM    tb_lobby_stats_player
-WHERE   qtRoundsPlayed < 16;
-
+SELECT  *
+    FROM    tb_book_players
+    GROUP BY idPlayer, dtRef
 
