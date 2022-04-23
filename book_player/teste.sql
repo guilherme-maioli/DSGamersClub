@@ -1,4 +1,4 @@
-SELECT  *
-    FROM    tb_book_players
-    GROUP BY idPlayer, dtRef
-
+SELECT  dtRef
+FROM    tb_book_players
+GROUP   by dtRef
+;
