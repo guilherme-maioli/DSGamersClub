@@ -1,3 +1,4 @@
+
 with tb_lobby as (
     SELECT  * 
     from    tb_lobby_stats_player
@@ -148,7 +149,7 @@ SELECT  '{date}' as dtRef,
 
 FROM    tb_book_lobby as t1
 LEFT    JOIN tb_book_medal as t2 on t2.idPlayer = t1.idPlayer
-LEFT    JOIN tb_players as t3 on t1.idPlayer = t3.idPlayer
-;
+LEFT    JOIN tb_players as t3 on t1.idPlayer = t3.idPlayer 
+; 
 
     
